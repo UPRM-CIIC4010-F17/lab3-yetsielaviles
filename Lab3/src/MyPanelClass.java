@@ -40,39 +40,39 @@ public class MyPanelClass extends JPanel {
 //                        g.setColor(Color.YELLOW);
 //                        g.fillPolygon(p);
                         
-                        Polygon p2 = new Polygon();
-                        p2.addPoint(x1 + 25, y1 + 73);
-                        p2.addPoint(x1 + 41, y1 + 73);
-                        p2.addPoint(x1 + 47, y1 + 58);
-                        p2.addPoint(x1 + 53, y1 + 73);
-                        p2.addPoint(x1 + 69, y1 + 73);
-                        p2.addPoint(x1 + 56, y1 + 83);
-                        p2.addPoint(x1 + 61, y1 + 98);
-                        p2.addPoint(x1 + 47, y1 + 88);
-                        p2.addPoint(x1 + 34, y1 + 98);
-                        p2.addPoint(x1 + 38, y1 + 83);
-                        g.setColor(Color.WHITE);
-                        g.drawPolygon(p2);
+//                        Polygon p2 = new Polygon();
+//                        p2.addPoint(x1 + 25, y1 + 73);
+//                        p2.addPoint(x1 + 41, y1 + 73);
+//                        p2.addPoint(x1 + 47, y1 + 58);
+//                        p2.addPoint(x1 + 53, y1 + 73);
+//                        p2.addPoint(x1 + 69, y1 + 73);
+//                        p2.addPoint(x1 + 56, y1 + 83);
+//                        p2.addPoint(x1 + 61, y1 + 98);
+//                        p2.addPoint(x1 + 47, y1 + 88);
+//                        p2.addPoint(x1 + 34, y1 + 98);
+//                        p2.addPoint(x1 + 38, y1 + 83);
+//                        g.setColor(Color.WHITE);
+//                        g.drawPolygon(p2);
                         
                         
-                        /*//Draw a border
-                        g.setColor(Color.YELLOW);
-                        g.drawRect(x1, y1, width, height);
+//                        //Draw a border
+//                        g.setColor(Color.YELLOW);
+//                        g.drawRect(x1, y1, width, height);
+//                        
+//                        //Draw a border
+//                        g.setColor(Color.BLACK);
+//                        g.drawRect(x1+5, y1+5, width-10, height-10);
+//                        
+//                        g.setColor(Color.WHITE);
+//                        g.drawLine(x1, y1, x2, y2);
+//                        
+//                        g.setColor(Color.BLUE);
+//                        g.drawLine(x1, y2, x2, y1);
+//                        
+//                        g.setColor(Color.RED);
+//                        g.fillOval((width-55)/2, (height-55)/2, 55,55);
                         
-                        //Draw a border
-                        g.setColor(Color.BLACK);
-                        g.drawRect(x1+5, y1+5, width-10, height-10);
-                        
-                        g.setColor(Color.WHITE);
-                        g.drawLine(x1, y1, x2, y2);
-                        
-                        g.setColor(Color.BLUE);
-                        g.drawLine(x1, y2, x2, y1);
-                        
-                        g.setColor(Color.RED);
-                        g.fillOval((height-55)/2, (width-55)/2, 55,55);*/
-                        
-                   /*     //Tres rectangulos rojos
+                        //Tres rectangulos rojos
                         g.setColor(Color.RED);
                         g.fillRect(x1, 4*(y1+y2)/5, width+1, height/5 +2);
                         g.fillRect(x1, 2*(y1+y2)/5, width+1, height/5);
@@ -99,6 +99,6 @@ public class MyPanelClass extends JPanel {
                          p2.addPoint( (width*34)/300, (height*98)/160);
                          p2.addPoint((width*38)/300, (height*83)/160);
                          g.setColor(Color.WHITE);
-                         g.fillPolygon(p2);*/
+                         g.fillPolygon(p2);
             }
 }
